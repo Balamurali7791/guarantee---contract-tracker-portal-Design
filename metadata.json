@@ -1,0 +1,6 @@
+{
+  "name": "Guarantee & Contract Tracker Portal",
+  "description": "Upload and manage bank guarantees, contract data, validity dates, issuing banks, and physical custody tracking with Excel import and export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

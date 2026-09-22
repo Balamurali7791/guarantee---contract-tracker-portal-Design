@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Calibri Fallback';
+  src: local('Calibri'), local('Carlito');
+}
+
+@layer base {
+  *, ::before, ::after {
+    font-family: 'Calibri', 'Carlito', 'Calibri Fallback', 'Segoe UI', Candara, Arial, sans-serif;
+  }
+
+  html, body {
+    font-family: 'Calibri', 'Carlito', 'Calibri Fallback', 'Segoe UI', Candara, Arial, sans-serif;
+    color: #0f172a;
+    background-color: #f6f7fa;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  input, button, select, textarea, optgroup {
+    font-family: 'Calibri', 'Carlito', 'Calibri Fallback', 'Segoe UI', Candara, Arial, sans-serif;
+  }
+}
+
+.font-classic {
+  font-family: 'Calibri', 'Carlito', 'Calibri Fallback', 'Segoe UI', Candara, Arial, sans-serif;
+}
+
+.font-mono {
+  font-family: 'Calibri', 'Carlito', 'Calibri Fallback', 'Segoe UI', Candara, Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom subtle scrollbar for wide data tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
